@@ -34,3 +34,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
+
+apply plugin: 'com.google.gms.google-services'  // Google Play services Gradle plugin
