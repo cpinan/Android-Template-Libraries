@@ -29,7 +29,8 @@ ext.versions = [
         firebase_ml_vision_face_model            : '18.0.0',
         firebase_ml_vision_object_detection_model: '19.0.1',
 
-        play_game_services                       : '18.0.1'
+        play_game_services                       : '18.0.1',
+        google_maps                              : '17.0.0'
 ]
 
 ext.libraries = [
@@ -83,6 +84,7 @@ ext.libraries = [
         firebase_ml_vision_object_detection_model: "com.google.firebase:firebase-ml-vision-object-detection-model:${versions.firebase_ml_vision_object_detection_model}",
 
         play_game_services                       : "com.google.android.gms:play-services-games:${versions.play_game_services}",
+        google_maps                              : "com.google.android.gms:play-services-maps:${versions.google_maps}",
 
         // UTILITY
         timer                                    : "com.jakewharton.timber:timber:${versions.timber}",
