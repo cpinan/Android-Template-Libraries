@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.carlospinan.demoapplication"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation libraries.kotlin_stdlib_jdk7
+    implementation libraries.appcompat
+    implementation libraries.core_ktx
+    implementation libraries.constraintlayout
+    implementation libraries.material
+
+    testImplementation libraries.junit
+
+    androidTestImplementation libraries.test_runner
+    androidTestImplementation libraries.espresso_core
+}
