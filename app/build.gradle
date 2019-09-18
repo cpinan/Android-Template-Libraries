@@ -30,9 +30,21 @@ dependencies {
     implementation libraries.core_ktx
     implementation libraries.constraintlayout
     implementation libraries.material
+    implementation libraries.fragment
+    implementation libraries.recyclerview
+    implementation libraries.annotation
+
+    implementation libraries.support_v4
+    implementation libraries.cardview
+    implementation libraries.preference
+    implementation libraries.customtabs
+
 
     testImplementation libraries.junit
 
     androidTestImplementation libraries.test_runner
     androidTestImplementation libraries.espresso_core
+    androidTestImplementation libraries.espresso_idling
+    androidTestImplementation libraries.espresso_contrib
+    androidTestImplementation libraries.espresso_intents
 }
