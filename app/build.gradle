@@ -39,6 +39,8 @@ dependencies {
     implementation libraries.preference
     implementation libraries.customtabs
 
+    implementation libraries.camerax_core
+    implementation libraries.camerax_camera2
 
     testImplementation libraries.junit
 

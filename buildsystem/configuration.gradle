@@ -34,7 +34,8 @@ ext.versions = [
         google_maps                              : '17.0.0',
         gson                                     : '2.8.2',
         truth                                    : '0.42',
-        google_plugin                            : '4.3.2'
+        google_plugin                            : '4.3.2',
+        camerax                                  : '1.0.0-alpha01'
 ]
 
 ext.libraries = [
@@ -108,6 +109,9 @@ ext.libraries = [
         google_maps                              : "com.google.android.gms:play-services-maps:${versions.google_maps}",
 
         gson                                     : "com.google.code.gson:gson:${versions.gson}",
+
+        camerax_core                             : "androidx.camera:camera-core:${versions.camerax}",
+        camerax_camera2                          : "androidx.camera:camera-camera2:${versions.camerax}",
 
         // UTILITY
         timer                                    : "com.jakewharton.timber:timber:${versions.timber}",
