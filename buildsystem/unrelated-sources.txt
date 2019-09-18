@@ -1,0 +1,1 @@
+https://android.googlesource.com/platform/frameworks/support/+/ac0c1d466abcfdcab2babb2e10eca574247e3c92/camera/view/src/main/java/androidx/camera/view/CameraView.java
