@@ -42,6 +42,21 @@ dependencies {
     implementation libraries.camerax_core
     implementation libraries.camerax_camera2
 
+    implementation libraries.lifecycle_extensions
+    implementation libraries.lifecycle_livedata_ktx
+    implementation libraries.lifecycle_viewmodel_ktx
+    implementation libraries.lifecycle_runtime
+
+    implementation libraries.retrofit
+
+    implementation libraries.moshi
+    implementation libraries.moshi_kotlin
+
+    implementation libraries.glide
+
+    implementation libraries.room_runtime
+    implementation libraries.kotlin_coroutines
+
     testImplementation libraries.junit
 
     androidTestImplementation libraries.test_runner

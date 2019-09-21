@@ -64,7 +64,7 @@ ext.libraries = [
         // ViewModel and LiveData
         lifecycle_extensions                     : "androidx.lifecycle:lifecycle-extensions:${versions.lifecycle_extensions}",
         // alternatively - just LiveData
-        lifecycle_livedata_ktx                   : "androidx.lifecycle:lifecycle-livedata-ktx:${versions.lifecycle_extensions}",
+        lifecycle_livedata_ktx                   : "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-alpha05",
         // alternatively - just ViewModel
         lifecycle_viewmodel_ktx                  : "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.lifecycle_extensions}",
         // alternatively - Lifecycles only (no ViewModel or LiveData). Some UI
