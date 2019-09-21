@@ -35,7 +35,9 @@ ext.versions = [
         gson                                     : '2.8.2',
         truth                                    : '0.42',
         google_plugin                            : '4.3.2',
-        camerax                                  : '1.0.0-alpha01'
+        camerax                                  : '1.0.0-alpha01',
+        paging                                   : '2.1.0-alpha01',
+        lifecycle_livedata_ktx                   : '2.2.0-alpha05'
 ]
 
 ext.libraries = [
@@ -60,11 +62,12 @@ ext.libraries = [
         core_ktx                                 : "androidx.core:core-ktx:${versions.core_ktx}",
 
         constraintlayout                         : "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
+        paging                                   : "androidx.paging:paging-runtime:${versions.paging}",
 
         // ViewModel and LiveData
         lifecycle_extensions                     : "androidx.lifecycle:lifecycle-extensions:${versions.lifecycle_extensions}",
         // alternatively - just LiveData
-        lifecycle_livedata_ktx                   : "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-alpha05",
+        lifecycle_livedata_ktx                   : "androidx.lifecycle:lifecycle-livedata-ktx:${versions.lifecycle_livedata_ktx}",
         // alternatively - just ViewModel
         lifecycle_viewmodel_ktx                  : "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.lifecycle_extensions}",
         // alternatively - Lifecycles only (no ViewModel or LiveData). Some UI

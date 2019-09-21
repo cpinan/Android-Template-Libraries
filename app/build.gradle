@@ -57,6 +57,8 @@ dependencies {
     implementation libraries.room_runtime
     implementation libraries.kotlin_coroutines
 
+    implementation libraries.paging
+
     testImplementation libraries.junit
 
     androidTestImplementation libraries.test_runner
