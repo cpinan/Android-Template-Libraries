@@ -59,7 +59,13 @@ dependencies {
 
     implementation libraries.paging
 
+    implementation libraries.easy_permissions
+
+    implementation libraries.okhttp3
+
     testImplementation libraries.junit
+    testImplementation libraries.mockito_core
+    testImplementation libraries.mockito_android
 
     androidTestImplementation libraries.test_runner
     androidTestImplementation libraries.espresso_core
